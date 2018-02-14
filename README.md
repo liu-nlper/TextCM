@@ -44,7 +44,7 @@
 |ri|str|./data/train_idx/|root_idx，训练数据索引文件根目录|
 |rv|str|./res/voc/|root_voc，词表、label表根目录|
 |re|str|./res/embed/|root_embed，embed文件根目录|
-|pe|str|None|path_embed，预训练的embed文件路径，`bin`或`txt`；若提供，则随机初始化|
+|pe|str|None|path_embed，预训练的embed文件路径，`bin`或`txt`；若不提供，则随机初始化|
 |pt|int|98|percentile，构建词表时的百分位值|
 
 也可以运行`python3 preprocessing.py -h`打印出帮助信息。
