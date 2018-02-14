@@ -47,7 +47,7 @@
 |pe|str|None|path_embed，预训练的embed文件路径，`bin`或`txt`；若不提供，则随机初始化|
 |pt|int|98|percentile，构建词表时的百分位值|
 
-也可以运行`python3 preprocessing.py -h`打印出帮助信息。
+运行`python3 preprocessing.py -h`可打印出帮助信息。
 
 ## 2. 训练
 
@@ -78,7 +78,7 @@
 |g|bool|False|是否使用GPU加速|
 |nw|int|4|num_worker，加载数据时的线程数|
 
-也可以运行`python3 train.py -h`打印出帮助信息。
+运行`python3 train.py -h`可打印出帮助信息。
 
 ## 3. 测试
 
@@ -98,7 +98,7 @@
 |nw|int|4|num_worker，加载数据时的线程数|
 |pr|str|./result.txt|预测结果存放路径|
 
-也可以运行`python3 test.py -h`打印出帮助信息。
+运行`python3 test.py -h`可打印出帮助信息。
 
 ## 4. Requirements
 
