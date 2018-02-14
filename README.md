@@ -1,6 +1,6 @@
-# Sentence Classification Framework
+# Text Classification Framework
 
-句子分类框架，可以完成:
+文本分类框架，可以完成:
 
  - 预处理。包括构建词表、label表，从预训练文件构建word embedding;
  - 训练。训练句子分类模型，模型包括CNNs等;
