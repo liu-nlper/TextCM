@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Sentence Classification Framework
 
 句子分类框架，可以完成:
@@ -107,6 +106,3 @@
  - numpy==1.13.1
  - torch==0.2.0.post3
  - torchvision==0.1.9
-=======
-# TextCM
->>>>>>> 713b64b5a146de8ee3c2297670cc4cb0756d2289
